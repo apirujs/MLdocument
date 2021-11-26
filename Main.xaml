@@ -66,5 +66,12 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </WriteLine>
+    <WriteLine sap2010:Annotation.AnnotationText="A error" DisplayName="error A" sap:VirtualizedContainerService.HintSize="229.333333333333,93.3333333333333" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[Cint(&quot;A&quot;).ToString]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </WriteLine>
   </Sequence>
 </Activity>
