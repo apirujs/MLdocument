@@ -1,0 +1,884 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "NoGroup.NoCategory.Astro",
+      "Group": "",
+      "Category": "",
+      "Name": "Astro",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "NoGroup.NoCategory.Astro.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "NoGroup.NoCategory.Astro.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#20389d"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.Astro.DueDate",
+          "FieldName": "DueDate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.Astro.No1",
+          "FieldName": "No1",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b34692"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "1"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.Astro.No2",
+          "FieldName": "No2",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b752f9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "2"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.Astro.Item",
+          "FieldName": "Item",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "NoGroup.NoCategory.Astro.Item.name",
+              "FieldName": "name",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.Astro.Item.cost1",
+              "FieldName": "cost1",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.Astro.Item.cost2",
+              "FieldName": "cost2",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.Astro.Item.cost3",
+              "FieldName": "cost3",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d286b6"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.Astro.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "NoGroup.NoCategory.Astro.Total.totalAmount",
+              "FieldName": "totalName",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.Astro.Total.total",
+              "FieldName": "total1",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.Astro.Total.total2",
+              "FieldName": "total2",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.Astro.Total.total3",
+              "FieldName": "total3",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#15e4be"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "NoGroup.NoCategory.ELink",
+      "Group": "",
+      "Category": "",
+      "Name": "ELink",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "NoGroup.NoCategory.ELink.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "NoGroup.NoCategory.ELink.InvoidNo",
+          "FieldName": "InvoidNo",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.ELink.JobNo",
+          "FieldName": "JobNo",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.ELink.Date",
+          "FieldName": "Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.ELink.Address",
+          "FieldName": "Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.ELink.OBL",
+          "FieldName": "OBL",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d2d550"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.ELink.Item",
+          "FieldName": "Item",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "NoGroup.NoCategory.ELink.Item.description",
+              "FieldName": "description",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.ELink.Item.rate",
+              "FieldName": "rate",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.ELink.Item.current",
+              "FieldName": "current",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.ELink.Item.city",
+              "FieldName": "qty",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.ELink.Item.unit",
+              "FieldName": "unit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.ELink.Item.exchgRate",
+              "FieldName": "exchgRate",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.ELink.Item.amount",
+              "FieldName": "amount",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#94b3df"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.ELink.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#a0c36b"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.ELink.GrandTotal",
+          "FieldName": "GrandTotal",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#a88a85"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.ELink.WT",
+          "FieldName": "WT",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ba466e"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "NoGroup.NoCategory.LEO",
+      "Group": "",
+      "Category": "",
+      "Name": "LEO",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "NoGroup.NoCategory.LEO.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.To",
+          "FieldName": "To",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.InvoidNo",
+          "FieldName": "InvoidNo",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.INVDate",
+          "FieldName": "INVDate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.DueDate",
+          "FieldName": "DueDate",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.JobNo",
+          "FieldName": "JobNo",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#bce022"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.ETA",
+          "FieldName": "ETA",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c6ba96"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.OBLNo",
+          "FieldName": "OBLNo",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d222d4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.Item",
+          "FieldName": "Item",
+          "IsMultiValue": false,
+          "Type": "Table",
+          "DeriveFieldsFormat": "",
+          "Components": [
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.description",
+              "FieldName": "description",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.rate",
+              "FieldName": "rate",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.curr",
+              "FieldName": "curr",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.qty",
+              "FieldName": "qty",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.unit",
+              "FieldName": "unit",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.exch",
+              "FieldName": "exch",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.advance",
+              "FieldName": "advance",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.nonVat",
+              "FieldName": "nonVat",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.vat7",
+              "FieldName": "vat7",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            },
+            {
+              "FieldId": "NoGroup.NoCategory.LEO.Item.wht",
+              "FieldName": "wht",
+              "IsMultiValue": false,
+              "Type": "Text",
+              "DeriveFieldsFormat": "",
+              "Components": [],
+              "SetValues": [],
+              "Metadata": []
+            }
+          ],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#358c7c"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#cfcc60"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ]
+        },
+        {
+          "FieldId": "NoGroup.NoCategory.LEO.GrandTotal",
+          "FieldName": "GrandTotal",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#72c6cb"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Groups": [],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    }
+  ]
+}
