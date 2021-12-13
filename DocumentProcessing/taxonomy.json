@@ -106,26 +106,6 @@
               "Metadata": []
             },
             {
-              "FieldId": "NoGroup.NoCategory.Astro.Item.cost1",
-              "FieldName": "cost1",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.Astro.Item.cost2",
-              "FieldName": "cost2",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
               "FieldId": "NoGroup.NoCategory.Astro.Item.cost3",
               "FieldName": "cost3",
               "IsMultiValue": false,
@@ -326,46 +306,6 @@
             {
               "FieldId": "NoGroup.NoCategory.ELink.Item.description",
               "FieldName": "description",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.ELink.Item.rate",
-              "FieldName": "rate",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.ELink.Item.current",
-              "FieldName": "current",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.ELink.Item.city",
-              "FieldName": "qty",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.ELink.Item.unit",
-              "FieldName": "unit",
               "IsMultiValue": false,
               "Type": "Text",
               "DeriveFieldsFormat": "",
@@ -619,76 +559,6 @@
             {
               "FieldId": "NoGroup.NoCategory.LEO.Item.description",
               "FieldName": "description",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.LEO.Item.rate",
-              "FieldName": "rate",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.LEO.Item.curr",
-              "FieldName": "curr",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.LEO.Item.qty",
-              "FieldName": "qty",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.LEO.Item.unit",
-              "FieldName": "unit",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.LEO.Item.exch",
-              "FieldName": "exch",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.LEO.Item.advance",
-              "FieldName": "advance",
-              "IsMultiValue": false,
-              "Type": "Text",
-              "DeriveFieldsFormat": "",
-              "Components": [],
-              "SetValues": [],
-              "Metadata": []
-            },
-            {
-              "FieldId": "NoGroup.NoCategory.LEO.Item.nonVat",
-              "FieldName": "nonVat",
               "IsMultiValue": false,
               "Type": "Text",
               "DeriveFieldsFormat": "",

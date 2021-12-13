@@ -59,7 +59,6 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.IntelligentOCR.Activities</AssemblyReference>
@@ -71,17 +70,7 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="476,473.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="StrCheck">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String" xml:space="preserve">PRAPAPUN W.
-
-AUTHORIZED SIGNATURE 
-
-1,379,565.98
-
-(12,893.14) 1,366,672.84</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="PRAPAPUN W.&#xA;&#xA;AUTHORIZED SIGNATURE &#xA;&#xA;1,379,565.98&#xA;&#xA;(12,893.14) 1,366,672.84" Name="StrCheck" />
       <Variable x:TypeArguments="scg:IEnumerable(str:Match)" Name="Re" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
@@ -89,7 +78,7 @@ AUTHORIZED SIGNATURE
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:Matches BuilderPattern="PRAPAPUN W.((\n|\s)*)AUTHORIZED SIGNATURE((\n|\s)*)(.*)" sap:VirtualizedContainerService.HintSize="434,58.6666666666667" sap2010:WorkflowViewState.IdRef="Matches_1" Input="[StrCheck]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;PRAPAPUN W.((\\n|\\s)*)AUTHORIZED SIGNATURE((\\n|\\s)*)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null},{&quot;Index&quot;:1,&quot;OperationID&quot;:&quot;ANYTHING&quot;,&quot;OperationName&quot;:&quot;Anything&quot;,&quot;OperationValue&quot;:&quot;.&quot;,&quot;QuantifierFirstValue&quot;:&quot;*&quot;,&quot;QuantifierID&quot;:&quot;ANY&quot;,&quot;QuantifierName&quot;:&quot;Any (0 or more)&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="PRAPAPUN W.((\n|\s)*)AUTHORIZED SIGNATURE((\n|\s)*)(.*)" RegexOption="IgnoreCase, Compiled" Result="[Re]" />
+    <ui:Matches BuilderPattern="PRAPAPUN W.((\n|\s)*)AUTHORIZED SIGNATURE((\n|\s)*)1,379,565.98" sap:VirtualizedContainerService.HintSize="434,58.6666666666667" sap2010:WorkflowViewState.IdRef="Matches_1" Input="[StrCheck]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;PRAPAPUN W.((\\n|\\s)*)AUTHORIZED SIGNATURE((\\n|\\s)*)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null},{&quot;Index&quot;:1,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;1,379,565.98&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="PRAPAPUN W.((\n|\s)*)AUTHORIZED SIGNATURE((\n|\s)*)1,379,565.98" RegexOption="IgnoreCase, Compiled" Result="[Re]" />
     <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="434,282.666666666667" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Re]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="x:Object">
